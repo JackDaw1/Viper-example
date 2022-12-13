@@ -14,11 +14,17 @@
 		FE77DF7B29462A4E00BFF359 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE77DF7A29462A4E00BFF359 /* Assets.xcassets */; };
 		FE77DF7E29462A4E00BFF359 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE77DF7C29462A4E00BFF359 /* LaunchScreen.storyboard */; };
 		FE77DF8629462A7600BFF359 /* VipInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE77DF8529462A7600BFF359 /* VipInteractor.swift */; };
-		FE77DF8829462B4300BFF359 /* VipPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE77DF8729462B4300BFF359 /* VipPresenter.swift */; };
+		FE77DF8829462B4300BFF359 /* PresenterViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE77DF8729462B4300BFF359 /* PresenterViewInput.swift */; };
 		FE77DF8A29462C0400BFF359 /* VipVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE77DF8929462C0400BFF359 /* VipVC.swift */; };
 		FE77DF8C29462DDB00BFF359 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE77DF8B29462DDB00BFF359 /* ViewModel.swift */; };
-		FE77DF8E29463A4400BFF359 /* SomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE77DF8D29463A4400BFF359 /* SomePresenter.swift */; };
+		FE77DF8E29463A4400BFF359 /* PresenterViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE77DF8D29463A4400BFF359 /* PresenterViewOutput.swift */; };
 		FE77DF9029463AC500BFF359 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE77DF8F29463AC500BFF359 /* Config.swift */; };
+		FE77DF932946604100BFF359 /* TaskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE77DF922946604100BFF359 /* TaskItem.swift */; };
+		FE77DF952946604D00BFF359 /* TaskAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE77DF942946604D00BFF359 /* TaskAPI.swift */; };
+		FE77DF9829470D2900BFF359 /* TaskDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE77DF9729470D2900BFF359 /* TaskDetailRouter.swift */; };
+		FE77DF9E29472EB000BFF359 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE77DF9D29472EB000BFF359 /* TaskViewController.swift */; };
+		FE77DFA02947300400BFF359 /* TaskModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE77DF9F2947300400BFF359 /* TaskModulePresenter.swift */; };
+		FE77DFA2294733FE00BFF359 /* TaskModuleProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE77DFA1294733FE00BFF359 /* TaskModuleProtocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,11 +37,17 @@
 		FE77DF7D29462A4E00BFF359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE77DF7F29462A4E00BFF359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE77DF8529462A7600BFF359 /* VipInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VipInteractor.swift; sourceTree = "<group>"; };
-		FE77DF8729462B4300BFF359 /* VipPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VipPresenter.swift; sourceTree = "<group>"; };
+		FE77DF8729462B4300BFF359 /* PresenterViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterViewInput.swift; sourceTree = "<group>"; };
 		FE77DF8929462C0400BFF359 /* VipVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VipVC.swift; sourceTree = "<group>"; };
 		FE77DF8B29462DDB00BFF359 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		FE77DF8D29463A4400BFF359 /* SomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomePresenter.swift; sourceTree = "<group>"; };
+		FE77DF8D29463A4400BFF359 /* PresenterViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterViewOutput.swift; sourceTree = "<group>"; };
 		FE77DF8F29463AC500BFF359 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		FE77DF922946604100BFF359 /* TaskItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItem.swift; sourceTree = "<group>"; };
+		FE77DF942946604D00BFF359 /* TaskAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAPI.swift; sourceTree = "<group>"; };
+		FE77DF9729470D2900BFF359 /* TaskDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailRouter.swift; sourceTree = "<group>"; };
+		FE77DF9D29472EB000BFF359 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		FE77DF9F2947300400BFF359 /* TaskModulePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModulePresenter.swift; sourceTree = "<group>"; };
+		FE77DFA1294733FE00BFF359 /* TaskModuleProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModuleProtocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,21 +80,75 @@
 		FE77DF7029462A4D00BFF359 /* Viper */ = {
 			isa = PBXGroup;
 			children = (
+				FE77DF9C29472E8300BFF359 /* Module */,
+				FE77DF9B29470E7700BFF359 /* View */,
+				FE77DF9A29470E1400BFF359 /* Presenter */,
+				FE77DF9929470D3100BFF359 /* Router */,
+				FE77DF962946610500BFF359 /* Interactor */,
+				FE77DF9129465FEA00BFF359 /* Entity */,
 				FE77DF7129462A4D00BFF359 /* AppDelegate.swift */,
 				FE77DF7329462A4D00BFF359 /* SceneDelegate.swift */,
-				FE77DF7529462A4D00BFF359 /* ViewController.swift */,
 				FE77DF7729462A4D00BFF359 /* Main.storyboard */,
 				FE77DF7A29462A4E00BFF359 /* Assets.xcassets */,
 				FE77DF7C29462A4E00BFF359 /* LaunchScreen.storyboard */,
 				FE77DF7F29462A4E00BFF359 /* Info.plist */,
-				FE77DF8929462C0400BFF359 /* VipVC.swift */,
-				FE77DF8729462B4300BFF359 /* VipPresenter.swift */,
-				FE77DF8529462A7600BFF359 /* VipInteractor.swift */,
-				FE77DF8B29462DDB00BFF359 /* ViewModel.swift */,
-				FE77DF8D29463A4400BFF359 /* SomePresenter.swift */,
-				FE77DF8F29463AC500BFF359 /* Config.swift */,
 			);
 			path = Viper;
+			sourceTree = "<group>";
+		};
+		FE77DF9129465FEA00BFF359 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				FE77DF8B29462DDB00BFF359 /* ViewModel.swift */,
+				FE77DF922946604100BFF359 /* TaskItem.swift */,
+				FE77DF942946604D00BFF359 /* TaskAPI.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		FE77DF962946610500BFF359 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				FE77DF8529462A7600BFF359 /* VipInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		FE77DF9929470D3100BFF359 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				FE77DF8F29463AC500BFF359 /* Config.swift */,
+				FE77DF9729470D2900BFF359 /* TaskDetailRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		FE77DF9A29470E1400BFF359 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				FE77DF8729462B4300BFF359 /* PresenterViewInput.swift */,
+				FE77DF8D29463A4400BFF359 /* PresenterViewOutput.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		FE77DF9B29470E7700BFF359 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE77DF7529462A4D00BFF359 /* ViewController.swift */,
+				FE77DF8929462C0400BFF359 /* VipVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE77DF9C29472E8300BFF359 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				FE77DF9D29472EB000BFF359 /* TaskViewController.swift */,
+				FE77DF9F2947300400BFF359 /* TaskModulePresenter.swift */,
+				FE77DFA1294733FE00BFF359 /* TaskModuleProtocols.swift */,
+			);
+			path = Module;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,13 +223,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE77DF8629462A7600BFF359 /* VipInteractor.swift in Sources */,
+				FE77DF932946604100BFF359 /* TaskItem.swift in Sources */,
 				FE77DF7629462A4D00BFF359 /* ViewController.swift in Sources */,
 				FE77DF9029463AC500BFF359 /* Config.swift in Sources */,
-				FE77DF8E29463A4400BFF359 /* SomePresenter.swift in Sources */,
+				FE77DF9829470D2900BFF359 /* TaskDetailRouter.swift in Sources */,
+				FE77DF8E29463A4400BFF359 /* PresenterViewOutput.swift in Sources */,
+				FE77DFA2294733FE00BFF359 /* TaskModuleProtocols.swift in Sources */,
 				FE77DF8A29462C0400BFF359 /* VipVC.swift in Sources */,
+				FE77DF952946604D00BFF359 /* TaskAPI.swift in Sources */,
 				FE77DF7229462A4D00BFF359 /* AppDelegate.swift in Sources */,
+				FE77DFA02947300400BFF359 /* TaskModulePresenter.swift in Sources */,
 				FE77DF7429462A4D00BFF359 /* SceneDelegate.swift in Sources */,
-				FE77DF8829462B4300BFF359 /* VipPresenter.swift in Sources */,
+				FE77DF8829462B4300BFF359 /* PresenterViewInput.swift in Sources */,
+				FE77DF9E29472EB000BFF359 /* TaskViewController.swift in Sources */,
 				FE77DF8C29462DDB00BFF359 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

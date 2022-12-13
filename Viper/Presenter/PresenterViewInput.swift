@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol IVipPresenter : AnyObject {
+protocol PresenterViewInput : AnyObject {
     var interactor: IVipInteractor? {get set}
     var view: IVipVC? {get set}
     
@@ -16,7 +16,7 @@ protocol IVipPresenter : AnyObject {
     func loadData()
 }
 
-class VipPresenter : NSObject, IVipPresenter {
+class VipPresenter : NSObject, PresenterViewInputProtocol {
     func setupData(data: LoadData.Response) {
         switch data {
         case .success(let data):

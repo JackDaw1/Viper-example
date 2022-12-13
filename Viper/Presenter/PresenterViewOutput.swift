@@ -7,7 +7,7 @@
 
 import Foundation
 
-class SomePresenter : ISomePresenter {
+class PresenterViewOutput : PresenterViewOutputProtocol {
     weak var view: IView?
     
     func doSomeLogic() {
@@ -16,7 +16,7 @@ class SomePresenter : ISomePresenter {
     }
 }
 
-protocol ISomePresenter : AnyObject {
+protocol PresenterViewOutputProtocol : AnyObject {
     func doSomeLogic()
     var view: IView? {get set}
 }
